@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contosole</title>
+<style>
+:root { --bg: #ffffff; --fg: #1c1b1f; --muted: #5f5c66; --line: #dedbe3; --accent: #b25e00; --head: #f6f3f8; }
+@media (prefers-color-scheme: dark) { :root { --bg: #141217; --fg: #e8e4ec; --muted: #a9a4b0; --line: #3a3640; --accent: #ffb86b; --head: #1f1c23; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 1.8rem; line-height: 1.25; margin: 0 0 8px; }
+h2 { font-size: 1.2rem; margin: 36px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+em { color: var(--muted); }
+a { color: var(--accent); }
+ul { padding-left: 1.2em; } li { margin: 6px 0; }
+.table { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+th, td { border: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+th { background: var(--head); }
+</style>
+</head>
+<body>
+<main>
+<h1>Contosole</h1>
+<p>App per monitorare un impianto fotovoltaico: energia, incentivi GSE, bollette e rientro dell'investimento.</p>
+<ul><li><a href="contosole/privacy/">Informativa sulla privacy</a></li></ul>
+<p>Contatti: <a href="mailto:alconsoftware@outlook.com">alconsoftware@outlook.com</a></p>
+</main>
+</body>
+</html>
